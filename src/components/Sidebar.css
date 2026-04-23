@@ -1,0 +1,42 @@
+.sidebar {
+  width: 230px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-right: 2px solid #eee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* button style */
+.btn {
+  padding: 12px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+.btn:hover {
+  background: #333;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* active */
+.btn.active {
+  background: #333;
+  color: white;
+  border-color: #333;
+}
